@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HRMainWindow</class>
+ <widget class="QMainWindow" name="HRMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>660</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>查询</string>
+    </property>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+    <addaction name="action_5"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>新建</string>
+    </property>
+    <addaction name="action_6"/>
+    <addaction name="action_7"/>
+    <addaction name="action_8"/>
+   </widget>
+   <widget class="QMenu" name="menu_loginlogout">
+    <property name="title">
+     <string>登录</string>
+    </property>
+   </widget>
+   <addaction name="menu_loginlogout"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action">
+   <property name="text">
+    <string>学生</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>老师</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>学生</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>老师</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>课程</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>学生</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>老师</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>课程</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
